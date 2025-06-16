@@ -1,0 +1,108 @@
+---
+title: "Algorithm development to estimate pregnancy data from Electronic Health Records"
+subtitle: "A Use Case from Argentina"
+format: clean-revealjs
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Carolina Mengoni Goñalons
+    email: cmengoni@buenosaires.gob.ar
+    affiliations: Buenos Aires City Government | University of Buenos Aires
+  - name: Juliana Reves Szemere
+    email: jrevesszemere@buenosaires.gob.ar
+    affiliations: Buenos Aires City Government | National University of San Martín | National Pedagogical University
+  - name: María Cristina Nanton
+    email: m.nanton@buenosaires.gob.ar
+    affiliations: Buenos Aires City Government | University of Buenos Aires
+---
+
+## Information and Health Statistics Management Office
+
+### Ministry of Health of the City of Buenos Aires
+
+::::: columns
+::: {.column width="60%"}
+![](imagenes/2.png)
+:::
+
+::: {.column width="40%"}
+![](imagenes/caba.gif)
+:::
+:::::
+
+## Information and Health Statistics Management Office
+
+### Ministry of Health of the City of Buenos Aires
+
+::::: columns
+::: {.column width="60%"}
+![](imagenes/1.png)
+:::
+
+::: {.column width="40%"}
+![](imagenes/caba.gif)
+:::
+:::::
+
+## ¿Why does our office need to detect and estimate pregnancies and delivery dates?
+
+::: notes
+:::
+
+## Background
+
+Use of structured data to estimate pregnancy outcomes:
+
+![](imagenes/maddie.png){fig-align="center"}
+
+[**Objective**]{.fg style="--col: #e64173"}: to develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy; enabling pregnancy-level outcome studies in women’s health.
+
+::: notes
+:::
+
+## Tools
+
+### R-based, open-source ecosystem for scalable health data processing
+
+![](imagenes/herramientas.png){fig-align="center" width="659"} 
+
+::: {.callout-note} 
+### `agiseR`
+
+is an internal R package developed by our team to facilitate access to local databases and automate reporting workflows. 
+:::
+
+## Automated Detection and Reporting {.smaller}
+
+### of pregnancies and delivery dates
+
+![](imagenes/algo_1.png){fig-align="center" width="669"}
+
+## Automated Detection and Reporting {.smaller}
+
+### of pregnancies and delivery dates
+
+![](imagenes/algo_2.png){fig-align="center" width="669"}
+
+## Automated Detection and Reporting {.smaller}
+
+### of pregnancies and delivery dates
+
+![](imagenes/diag_general.png){fig-align="center" width="669"}
+
+## Impact
+
+### Impact description.
+
+#### Line of work:
+
+-   Description **highlight**
+-   Description **highlight**
+
+#### Line of work:
+
+-   Description **highlight**
+-   Description **highlight**
+
+# Thanks!
