@@ -23,11 +23,11 @@ author:
 
 ::::: columns
 ::: {.column width="60%"}
-![](imagenes/2.png)
+![](imagenes/2.png){fig-alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."}
 :::
 
 ::: {.column width="40%"}
-![](imagenes/caba.gif)
+![](imagenes/caba.gif){fig-alt="Map of South America, zooming in the City of Buenos Aires."}
 :::
 :::::
 
@@ -37,11 +37,11 @@ author:
 
 ::::: columns
 ::: {.column width="60%"}
-![](imagenes/1.png)
+![](imagenes/1.png){fig-alt="Organizational chart highlighting the Health Information and Statistics Management Office."}
 :::
 
 ::: {.column width="40%"}
-![](imagenes/caba.gif)
+![](imagenes/caba.gif){fig-alt="Map of South America, zooming in the City of Buenos Aires."}
 :::
 :::::
 
@@ -54,7 +54,7 @@ author:
 
 Use of structured data to estimate pregnancy outcomes:
 
-![](imagenes/maddie.png){fig-align="center"}
+![](imagenes/maddie.png){fig-align="center", fig-alt="Capture of the journal article titled 'Development and evaluation of MADDIE: Method to Acquire Delivery Date Information from Electronic Health Records,' published in the International Journal of Medical Informatics, Volume 145, January 2021. Authors listed are Silvia P. Canelón, Heather H. Burris, Lisa D. Levine, and Mary Regina Boland."}
 
 [**Objective**]{.fg style="--col: #e64173"}: to develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy; enabling pregnancy-level outcome studies in women’s health.
 
@@ -65,7 +65,7 @@ Use of structured data to estimate pregnancy outcomes:
 
 ### R-based, open-source ecosystem for scalable health data processing
 
-![](imagenes/herramientas.png){fig-align="center" width="659"} 
+![](imagenes/herramientas.png){fig-align="center" width="659", fig-alt= "Image with the logos of the tools Gitlab, tidyverse, dplyr, dbplyr, tidyr, lubridate, stringr, janitor and agiseR. Above them, a screen capture of the structure of some of GOGIES' DataWarehouse tables, and a diagram of SIGEHOS database infrastructure being ingested in the DataWarehouse "} 
 
 ::: {.callout-note} 
 ### `agiseR`
@@ -77,19 +77,19 @@ is an internal R package developed by our team to facilitate access to local dat
 
 ### of pregnancies and delivery dates
 
-![](imagenes/algo_1.png){fig-align="center" width="669"}
+![](imagenes/algo_1.png){fig-align="center" width="669", fig-alt="Timeline diagram illustrating a 126-week period divided into three sections: 42 weeks before, a target period in the center, and 42 weeks after. Each horizontal line represents an individual patient, with red bars indicating intervals of data activity and black-outlined circles marking events such as clinical encounters or data points. Most activity and events are clustered around the central target period, highlighted in dark gray."}
 
 ## Automated Detection and Reporting {.smaller}
 
 ### of pregnancies and delivery dates
 
-![](imagenes/algo_2.png){fig-align="center" width="669"}
+![](imagenes/algo_2.png){fig-align="center" width="669", fig-alt="Timeline diagram showing a patient’s pregnancy episode within a target period. A red line represents the episode duration, with red circles indicating events along the episode. A start date is marked, followed by the end of pregnancy (EoP), effective EoP, and a probable delivery date occurring approximately 40 weeks from the start. Labels point to higher gestational age and key points used to estimate the delivery date."}
 
 ## Automated Detection and Reporting {.smaller}
 
 ### of pregnancies and delivery dates
 
-![](imagenes/diag_general.png){fig-align="center" width="669"}
+![](imagenes/diag_general.png){fig-align="center" width="669", fig-alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it’s marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it’s also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age."}
 
 ## Impact
 
