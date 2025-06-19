@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.361">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Carolina Mengoni Goñalons">
   <meta name="author" content="Juliana Reves Szemere">
@@ -158,7 +158,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -372,25 +373,38 @@ María Cristina Nanton
 <h3 id="ministry-of-health-of-the-city-of-buenos-aires">Ministry of Health of the City of Buenos Aires</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><img data-src="imagenes/2.png"></p>
+<p><img data-src="imagenes/2.png" alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="imagenes/caba.gif"></p>
-</div>
-</div>
+<p><img data-src="imagenes/caba.gif" alt="Map of South America, zooming in the City of Buenos Aires."></p>
+</div></div>
 </section>
 <section id="information-and-health-statistics-management-office-1" class="slide level2">
 <h2>Information and Health Statistics Management Office</h2>
 <h3 id="ministry-of-health-of-the-city-of-buenos-aires-1">Ministry of Health of the City of Buenos Aires</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><img data-src="imagenes/1.png"></p>
+<p><img data-src="imagenes/1.png" alt="Organizational chart highlighting the Health Information and Statistics Management Office."></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="imagenes/caba.gif"></p>
-</div>
-</div>
+<p><img data-src="imagenes/caba.gif" alt="Map of South America, zooming in the City of Buenos Aires."></p>
+</div></div>
 </section>
 <section id="why-does-our-office-need-to-detect-and-estimate-pregnancies-and-delivery-dates" class="slide level2">
 <h2>¿Why does our office need to detect and estimate pregnancies and delivery dates?</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="imagenes/esquema_sigehos.PNG" class="quarto-figure quarto-figure-center" alt="Diagrama del sistema" width="569"></p>
+</figure>
+</div>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Free-text input by healthcare professionals</li>
+<li>Rich, high-value data</li>
+<li>Longitudinal pregnancy monitoring</li>
+<li>Critical obstetric metrics</li>
+</ul>
+</div></div>
 <aside class="notes">
 
 <style type="text/css">
@@ -407,9 +421,9 @@ María Cristina Nanton
 </section>
 <section id="background" class="slide level2">
 <h2>Background</h2>
-<p>Use of structured data to estimate pregnancy outcomes</p>
+<p>Use of structured data to estimate pregnancy outcomes:</p>
 
-<img data-src="imagenes/maddie.png" class="r-stretch quarto-figure-center"><p><span class="fg" style="--col: #e64173"><strong>Objective</strong></span>: to develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy; enabling pregnancy-level outcome studies in women’s health.</p>
+<img data-src="imagenes/maddie.png" class="quarto-figure quarto-figure-center r-stretch" alt="Capture of the journal article titled 'Development and evaluation of MADDIE: Method to Acquire Delivery Date Information from Electronic Health Records,' published in the International Journal of Medical Informatics, Volume 145, January 2021. Authors listed are Silvia P. Canelón, Heather H. Burris, Lisa D. Levine, and Mary Regina Boland."><p><span class="fg" style="--col: #e64173"><strong>Objective</strong></span>: To develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy, enabling pregnancy-level outcome studies in women’s health.</p>
 <aside class="notes">
 
 <style type="text/css">
@@ -428,7 +442,7 @@ María Cristina Nanton
 <h2>Tools</h2>
 <h3 id="r-based-open-source-ecosystem-for-scalable-health-data-processing">R-based, open-source ecosystem for scalable health data processing</h3>
 
-<img data-src="imagenes/herramientas.png" width="659" class="r-stretch quarto-figure-center"><div class="callout callout-note callout-titled callout-style-default">
+<img data-src="imagenes/herramientas.png" class="quarto-figure quarto-figure-center r-stretch" alt="Image with the logos of the tools Gitlab, tidyverse, dplyr, dbplyr, tidyr, lubridate, stringr, janitor and agiseR. Above them, a screen capture of the structure of some of GOGIES' DataWarehouse tables, and a diagram of SIGEHOS database infrastructure being ingested in the DataWarehouse" width="659"><div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
@@ -446,17 +460,17 @@ María Cristina Nanton
 <h2>Automated Detection and Reporting</h2>
 <h3 id="of-pregnancies-and-delivery-dates">of pregnancies and delivery dates</h3>
 
-<img data-src="imagenes/algo_1.png" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/algo_1.png" class="quarto-figure quarto-figure-center r-stretch" alt="Timeline diagram illustrating a 126-week period divided into three sections: 42 weeks before, a target period in the center, and 42 weeks after. Each horizontal line represents an individual patient, with red bars indicating intervals of data activity and black-outlined circles marking events such as clinical encounters or data points. Most activity and events are clustered around the central target period, highlighted in dark gray." width="669"></section>
 <section id="automated-detection-and-reporting-1" class="slide level2 smaller">
 <h2>Automated Detection and Reporting</h2>
 <h3 id="of-pregnancies-and-delivery-dates-1">of pregnancies and delivery dates</h3>
 
-<img data-src="imagenes/algo_2.png" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/algo_2.png" class="quarto-figure quarto-figure-center r-stretch" alt="Timeline diagram showing a patient's pregnancy episode within a target period. A red line represents the episode duration, with red circles indicating events along the episode. A start date is marked, followed by the end of pregnancy (EoP), effective EoP, and a probable delivery date occurring approximately 40 weeks from the start. Labels point to higher gestational age and key points used to estimate the delivery date." width="669"></section>
 <section id="automated-detection-and-reporting-2" class="slide level2 smaller">
 <h2>Automated Detection and Reporting</h2>
 <h3 id="of-pregnancies-and-delivery-dates-2">of pregnancies and delivery dates</h3>
 
-<img data-src="imagenes/diag_general.png" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/diag_general.png" class="quarto-figure quarto-figure-center r-stretch" alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age." width="669"></section>
 <section id="impact" class="slide level2">
 <h2>Impact</h2>
 <h3 id="impact-description.">Impact description.</h3>
@@ -473,8 +487,10 @@ María Cristina Nanton
 </section>
 <section id="thanks" class="title-slide slide level1 center">
 <h1>Thanks!</h1>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -503,7 +519,6 @@ María Cristina Nanton
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -720,18 +735,7 @@ María Cristina Nanton
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -763,11 +767,50 @@ María Cristina Nanton
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -777,8 +820,17 @@ María Cristina Nanton
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -792,7 +844,11 @@ María Cristina Nanton
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
