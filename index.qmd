@@ -106,17 +106,17 @@ is an internal R package developed by our team to facilitate access to local dat
 
 ## Impact
 
-### Impact description.
+#### Primary healthcare:
 
-#### Line of work:
+- **Alert rules** for specific conditions
+- **Result indicators** for appropriate checkups
 
-- Primary healthcare:
-  - **Alert rules** for specific conditions
-  - **Result indicators** for appropriate checkups
+#### Healthcare cost recovery:
 
-#### Line of work:
+- Generation of **tracer indicators**
 
-- Healthcare cost recovery: generation of **tracer indicators**
-- Notifiable diseases: **differentiate** pregnant patients
+#### Mandatory reportable diseases:
+
+- **Differentiate** pregnant patients for Epidemiological Bulletin
 
 # Thanks!
