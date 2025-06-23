@@ -69,7 +69,7 @@ Use of structured data to estimate pregnancy outcomes:
 
 ![](imagenes/maddie.png){fig-align="center" fig-alt="Capture of the journal article titled 'Development and evaluation of MADDIE: Method to Acquire Delivery Date Information from Electronic Health Records,' published in the International Journal of Medical Informatics, Volume 145, January 2021. Authors listed are Silvia P. Canelón, Heather H. Burris, Lisa D. Levine, and Mary Regina Boland."}
 
-[**Objective**]{.fg style="--col: #e64173"}: To develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy, enabling pregnancy-level outcome studies in women's health.
+[**Aim**]{.fg style="--col: #e64173"}: Develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy, enabling pregnancy-level outcome studies in women's health.
 
 ::: {.notes}
 :::
@@ -105,17 +105,16 @@ is an internal R package developed by our team to facilitate access to local dat
 ![](imagenes/diag_general.png){fig-align="center" width="669" fig-alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age."}
 
 ## Impact
-
-#### Primary healthcare:
-
+### Ready available pregnancy patient information and more efficient processing for required health information.
+#### Primary healthcare
 - **Alert rules** for specific conditions
 - **Result indicators** for appropriate checkups
+- **Managing** conditions alongside preganancy
 
-#### Healthcare cost recovery:
-
+#### Healthcare cost recovery
 - Generation of **tracer indicators**
 
-#### Mandatory reportable diseases:
+#### Mandatory reportable diseases
 
 - **Differentiate** pregnant patients for Epidemiological Bulletin
 
