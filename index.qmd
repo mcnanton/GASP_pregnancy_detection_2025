@@ -110,12 +110,13 @@ is an internal R package developed by our team to facilitate access to local dat
 
 #### Line of work:
 
-- Description **highlight**
-- Description **highlight**
+- Primary healthcare:
+  - **Alert rules** for specific conditions
+  - **Result indicators** for appropriate checkups
 
 #### Line of work:
 
-- Description **highlight**
-- Description **highlight**
+- Healthcare cost recovery: generation of **tracer indicators**
+- Notifiable diseases: **differentiate** pregnant patients
 
 # Thanks!
