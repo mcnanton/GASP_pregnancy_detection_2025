@@ -118,7 +118,7 @@ is an internal R package developed by our team to facilitate access to local dat
 #### Primary healthcare
 - **Alert rules** for specific conditions
 - **Result indicators** for appropriate checkups
-- **Managing** conditions alongside preganancy
+- **Managing** conditions alongside a pregnancy
 
 #### Healthcare cost recovery
 - Generation of **tracer indicators**
