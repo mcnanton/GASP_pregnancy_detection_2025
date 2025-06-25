@@ -86,21 +86,30 @@ Use of structured data to estimate pregnancy outcomes:
 is an internal R package developed by our team to facilitate access to local databases and automate reporting workflows.
 :::
 
-## Automated Detection and Reporting {.smaller}
+## Automated Detection of Pregnancies {.smaller}
+### Records and pregnancies
 
-### of pregnancies and delivery dates
+![](imagenes/0_records.png){fig-align="center" width="669" fig-alt="Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals."}
 
-![](imagenes/algo_1.png){fig-align="center" width="669" fig-alt="Timeline diagram illustrating a 126-week period divided into three sections: 42 weeks before, a target period in the center, and 42 weeks after. Each horizontal line represents an individual patient, with red bars indicating intervals of data activity and black-outlined circles marking events such as clinical encounters or data points. Most activity and events are clustered around the central target period, highlighted in dark gray."}
+## Automated Detection of Pregnancies {.smaller}
+### Extraction of Gestational Age (GA) values
 
-## Automated Detection and Reporting {.smaller}
+![](imagenes/1_extraction.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Black-outlined circles represent electronic health records from which a value of Gestational Age could be extraced, while grey circles indicate no GA was obtained"}
 
-### of pregnancies and delivery dates
 
-![](imagenes/algo_2.png){fig-align="center" width="669" fig-alt="Timeline diagram showing a patient's pregnancy episode within a target period. A red line represents the episode duration, with red circles indicating events along the episode. A start date is marked, followed by the end of pregnancy (EoP), effective EoP, and a probable delivery date occurring approximately 40 weeks from the start. Labels point to higher gestational age and key points used to estimate the delivery date."}
+## Automated Detection of Pregnancies {.smaller}
+### Clustering of records
+![](imagenes/2_grouping.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Grey outlined circles represent non-informative records. Coloured circles represent records refering to different pregnancies according to their colour"}
 
-## Automated Detection and Reporting {.smaller}
 
-### of pregnancies and delivery dates
+
+## Automated Detection of Pregnancies {.smaller}
+### Delimiting of detected pregnancy
+
+![](imagenes/3_delimiting.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancie while regular text indicates operations performed"}
+
+## Automated Detection of Pregnancies {.smaller}
+### Updating
 
 ![](imagenes/diag_general.png){fig-align="center" width="669" fig-alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age."}
 

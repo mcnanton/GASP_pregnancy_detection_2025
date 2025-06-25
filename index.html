@@ -257,19 +257,29 @@ María Cristina Nanton
 </div>
 </div>
 </section>
-<section id="automated-detection-and-reporting" class="slide level2 smaller">
-<h2>Automated Detection and Reporting</h2>
-<h3 id="of-pregnancies-and-delivery-dates">of pregnancies and delivery dates</h3>
+<section id="automated-detection-of-pregnancies" class="slide level2 smaller">
+<h2>Automated Detection of Pregnancies</h2>
+<h3 id="records-and-pregnancies">Records and pregnancies</h3>
 
-<img data-src="imagenes/algo_1.png" class="quarto-figure quarto-figure-center r-stretch" alt="Timeline diagram illustrating a 126-week period divided into three sections: 42 weeks before, a target period in the center, and 42 weeks after. Each horizontal line represents an individual patient, with red bars indicating intervals of data activity and black-outlined circles marking events such as clinical encounters or data points. Most activity and events are clustered around the central target period, highlighted in dark gray." width="669"></section>
-<section id="automated-detection-and-reporting-1" class="slide level2 smaller">
-<h2>Automated Detection and Reporting</h2>
-<h3 id="of-pregnancies-and-delivery-dates-1">of pregnancies and delivery dates</h3>
+<img data-src="imagenes/0_records.png" class="quarto-figure quarto-figure-center r-stretch" alt="Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals." width="669"></section>
+<section id="automated-detection-of-pregnancies-1" class="slide level2 smaller">
+<h2>Automated Detection of Pregnancies</h2>
+<h3 id="extraction-of-gestational-age-ga-values">Extraction of Gestational Age (GA) values</h3>
 
-<img data-src="imagenes/algo_2.png" class="quarto-figure quarto-figure-center r-stretch" alt="Timeline diagram showing a patient's pregnancy episode within a target period. A red line represents the episode duration, with red circles indicating events along the episode. A start date is marked, followed by the end of pregnancy (EoP), effective EoP, and a probable delivery date occurring approximately 40 weeks from the start. Labels point to higher gestational age and key points used to estimate the delivery date." width="669"></section>
-<section id="automated-detection-and-reporting-2" class="slide level2 smaller">
-<h2>Automated Detection and Reporting</h2>
-<h3 id="of-pregnancies-and-delivery-dates-2">of pregnancies and delivery dates</h3>
+<img data-src="imagenes/1_extraction.png" class="quarto-figure quarto-figure-center r-stretch" alt="Diagram showing a patient's timeline. Black-outlined circles represent electronic health records from which a value of Gestational Age could be extraced, while grey circles indicate no GA was obtained" width="669"></section>
+<section id="automated-detection-of-pregnancies-2" class="slide level2 smaller">
+<h2>Automated Detection of Pregnancies</h2>
+<h3 id="clustering-of-records">Clustering of records</h3>
+
+<img data-src="imagenes/2_grouping.png" class="quarto-figure quarto-figure-center r-stretch" alt="Diagram showing a patient's timeline. Grey outlined circles represent non-informative records. Coloured circles represent records refering to different pregnancies according to their colour" width="669"></section>
+<section id="automated-detection-of-pregnancies-3" class="slide level2 smaller">
+<h2>Automated Detection of Pregnancies</h2>
+<h3 id="delimiting-of-detected-pregnancy">Delimiting of detected pregnancy</h3>
+
+<img data-src="imagenes/3_delimiting.png" class="quarto-figure quarto-figure-center r-stretch" alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancie while regular text indicates operations performed" width="669"></section>
+<section id="automated-detection-of-pregnancies-4" class="slide level2 smaller">
+<h2>Automated Detection of Pregnancies</h2>
+<h3 id="updating">Updating</h3>
 
 <img data-src="imagenes/diag_general.png" class="quarto-figure quarto-figure-center r-stretch" alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age." width="669"></section>
 <section id="impact" class="slide level2">
