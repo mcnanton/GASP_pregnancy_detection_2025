@@ -127,4 +127,4 @@ is an internal R package developed by our team to facilitate access to local dat
 
 - **Differentiate** pregnant patients for Epidemiological Bulletin
 
-# Thanks!
+# Thanks for your time!
