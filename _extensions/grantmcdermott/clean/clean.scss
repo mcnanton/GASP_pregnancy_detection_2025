@@ -165,6 +165,14 @@ $selection-bg: #26351c !default;
   }
 }
 
+.tight-list {
+  line-height: 0.9em !important;
+}
+
+.tight-list li {
+  margin-bottom: 0.2em !important;
+}
+
 // Ordered lists
 
 .reveal ol {

@@ -372,20 +372,9 @@ María Cristina Nanton
 <h3 id="ministry-of-health-of-the-city-of-buenos-aires">Ministry of Health of the City of Buenos Aires</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><img data-src="imagenes/2.png" alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."></p>
+<p><img data-src="imagenes/1.png" alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="imagenes/caba.gif" alt="Map of South America, zooming in the City of Buenos Aires."></p>
-</div>
-</div>
-</section>
-<section id="information-and-health-statistics-management-office-1" class="slide level2">
-<h2>Information and Health Statistics Management Office</h2>
-<h3 id="ministry-of-health-of-the-city-of-buenos-aires-1">Ministry of Health of the City of Buenos Aires</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="imagenes/1.png" alt="Organizational chart highlighting the Health Information and Statistics Management Office."></p>
-</div><div class="column" style="width:40%;">
-<p><img data-src="imagenes/caba.gif" alt="Map of South America, zooming in the City of Buenos Aires."></p>
+<p><img data-src="imagenes/caba.gif" alt="Map of South America, zooming in the City of Buenos Aires."> <span style="font-size: 0.4em;">Map of South America, zooming in the City of Buenos Aires.</span></p>
 </div>
 </div>
 </section>
@@ -395,7 +384,7 @@ María Cristina Nanton
 <div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="imagenes/esquema_sigehos.PNG" alt="Diagrama del sistema" width="569"></p>
+<p><img data-src="imagenes/esquema_sigehos.PNG" alt="Diagram showing information flow from health centers to information systeem to electronic health records" width="569"></p>
 </figure>
 </div>
 </div><div class="column" style="width:40%;">
@@ -462,41 +451,45 @@ María Cristina Nanton
 <h2>Automated Detection of Pregnancies</h2>
 <h3 id="records-and-pregnancies">Records and pregnancies</h3>
 
-<img data-src="imagenes/0_records.png" alt="Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals." width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/0_records.png" alt="Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals." width="669" class="r-stretch quarto-figure-center"><p><span style="font-size: 1.0em;">Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals.</span></p>
+</section>
 <section id="automated-detection-of-pregnancies-1" class="slide level2 smaller">
 <h2>Automated Detection of Pregnancies</h2>
 <h3 id="extraction-of-gestational-age-ga-values">Extraction of Gestational Age (GA) values</h3>
 
-<img data-src="imagenes/1_extraction.png" alt="Diagram showing a patient's timeline. Black-outlined circles represent electronic health records from which a value of Gestational Age could be extraced, while grey circles indicate no GA was obtained" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/1_extraction.png" alt="Diagram showing a patient's timeline. Black-outlined circles represent electronic health records from which a value of Gestational Age could be extraced, while grey circles indicate no GA was obtained" width="669" class="r-stretch quarto-figure-center"><p><span style="font-size: 1.0em;">Each horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age.</span></p>
+</section>
 <section id="automated-detection-of-pregnancies-2" class="slide level2 smaller">
 <h2>Automated Detection of Pregnancies</h2>
 <h3 id="clustering-of-records">Clustering of records</h3>
 
-<img data-src="imagenes/2_grouping.png" alt="Diagram showing a patient's timeline. Grey outlined circles represent non-informative records. Coloured circles represent records refering to different pregnancies according to their colour" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/2_grouping.png" alt="Diagram showing a patient's timeline. Grey outlined circles represent non-informative records. Coloured circles represent records refering to different pregnancies according to their colour" width="669" class="r-stretch quarto-figure-center"><p><span style="font-size: 1.0em;">Each horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age. Our algorithm identifies which records have pregnancy data, and which pregnancy they correspond to.</span></p>
+</section>
 <section id="automated-detection-of-pregnancies-3" class="slide level2 smaller">
 <h2>Automated Detection of Pregnancies</h2>
 <h3 id="delimiting-of-detected-pregnancy">Delimiting of detected pregnancy</h3>
 
-<img data-src="imagenes/3_delimiting.png" alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancie while regular text indicates operations performed" width="669" class="r-stretch quarto-figure-center"></section>
+<img data-src="imagenes/3_delimiting.png" alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed" width="669" class="r-stretch quarto-figure-center"><p><span style="font-size: 1.0em;">Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed.</span></p>
+</section>
 <section id="automated-detection-of-pregnancies-4" class="slide level2 smaller">
 <h2>Automated Detection of Pregnancies</h2>
 <h3 id="updating">Updating</h3>
 
 <img data-src="imagenes/diag_general.png" alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age." width="669" class="r-stretch quarto-figure-center"></section>
-<section id="impact" class="slide level2">
-<h2>Impact</h2>
-<h3 id="ready-available-pregnancy-patient-information-and-more-efficient-processing-for-required-health-information.">Ready available pregnancy patient information and more efficient processing for required health information.</h3>
-<h4 id="primary-healthcare">Primary healthcare</h4>
+<section id="projects-impact" class="slide level2">
+<h2>Project’s impact</h2>
+<h3 id="available-pregnancy-patient-information-and-efficient-processing-for-secondary-uses-of-health-data.">Available pregnancy patient information and efficient processing for secondary uses of health data.</h3>
+<h4 class="tight-list" id="primary-healthcare">Primary healthcare</h4>
 <ul>
 <li><strong>Alert rules</strong> for specific conditions</li>
 <li><strong>Result indicators</strong> for appropriate checkups</li>
 <li><strong>Managing</strong> conditions alongside a pregnancy</li>
 </ul>
-<h4 id="healthcare-cost-recovery">Healthcare cost recovery</h4>
+<h4 class="tight-list" id="healthcare-cost-recovery">Healthcare cost recovery</h4>
 <ul>
 <li>Generation of <strong>tracer indicators</strong></li>
 </ul>
-<h4 id="mandatory-reportable-diseases">Mandatory reportable diseases</h4>
+<h4 class="tight-list" id="mandatory-reportable-diseases">Mandatory reportable diseases</h4>
 <ul>
 <li><strong>Differentiate</strong> pregnant patients for Epidemiological Bulletin</li>
 </ul>

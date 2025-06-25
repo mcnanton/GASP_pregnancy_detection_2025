@@ -4,14 +4,7 @@
     "href": "index.html#information-and-health-statistics-management-office",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Information and Health Statistics Management Office",
-    "text": "Information and Health Statistics Management Office\nMinistry of Health of the City of Buenos Aires"
-  },
-  {
-    "objectID": "index.html#information-and-health-statistics-management-office-1",
-    "href": "index.html#information-and-health-statistics-management-office-1",
-    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
-    "section": "Information and Health Statistics Management Office",
-    "text": "Information and Health Statistics Management Office\nMinistry of Health of the City of Buenos Aires"
+    "text": "Information and Health Statistics Management Office\nMinistry of Health of the City of Buenos Aires\n\n\n\n\n Map of South America, zooming in the City of Buenos Aires."
   },
   {
     "objectID": "index.html#why-does-our-office-need-to-detect-and-estimate-pregnancies-and-delivery-dates",
@@ -39,28 +32,28 @@
     "href": "index.html#automated-detection-of-pregnancies",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nRecords and pregnancies"
+    "text": "Automated Detection of Pregnancies\nRecords and pregnancies\n\nDiagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-1",
     "href": "index.html#automated-detection-of-pregnancies-1",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nExtraction of Gestational Age (GA) values"
+    "text": "Automated Detection of Pregnancies\nExtraction of Gestational Age (GA) values\n\nEach horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-2",
     "href": "index.html#automated-detection-of-pregnancies-2",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nClustering of records"
+    "text": "Automated Detection of Pregnancies\nClustering of records\n\nEach horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age. Our algorithm identifies which records have pregnancy data, and which pregnancy they correspond to."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-3",
     "href": "index.html#automated-detection-of-pregnancies-3",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nDelimiting of detected pregnancy"
+    "text": "Automated Detection of Pregnancies\nDelimiting of detected pregnancy\n\nColoured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-4",
@@ -70,10 +63,10 @@
     "text": "Automated Detection of Pregnancies\nUpdating"
   },
   {
-    "objectID": "index.html#impact",
-    "href": "index.html#impact",
+    "objectID": "index.html#projects-impact",
+    "href": "index.html#projects-impact",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
-    "section": "Impact",
-    "text": "Impact\nReady available pregnancy patient information and more efficient processing for required health information.\nPrimary healthcare\n\nAlert rules for specific conditions\nResult indicators for appropriate checkups\nManaging conditions alongside a pregnancy\n\nHealthcare cost recovery\n\nGeneration of tracer indicators\n\nMandatory reportable diseases\n\nDifferentiate pregnant patients for Epidemiological Bulletin"
+    "section": "Project’s impact",
+    "text": "Project’s impact\nAvailable pregnancy patient information and efficient processing for secondary uses of health data.\nPrimary healthcare\n\nAlert rules for specific conditions\nResult indicators for appropriate checkups\nManaging conditions alongside a pregnancy\n\nHealthcare cost recovery\n\nGeneration of tracer indicators\n\nMandatory reportable diseases\n\nDifferentiate pregnant patients for Epidemiological Bulletin"
   }
 ]

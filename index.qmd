@@ -23,33 +23,22 @@ author:
 
 ::::: {.columns}
 ::: {.column width="60%"}
-![](imagenes/2.png){fig-alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."}
+![](imagenes/1.png){fig-alt="Organizational chart of the Health Information and Statistics Management under the Ministry of Health of the City of Buenos Aires. The chart shows a hierarchy starting with the Undersecretariat of Health Planning, followed by the General Directorate of Health Information Systems, which oversees four areas: Health Informatics, Software Development, Technology, Telecommunications and Support, and Health Information and Statistics Management."}
 :::
 
 ::: {.column width="40%"}
 ![](imagenes/caba.gif){fig-alt="Map of South America, zooming in the City of Buenos Aires."}
+<span style="font-size: 0.4em;">Map of South America, zooming in the City of Buenos Aires.</span>
 :::
 :::::
 
-## Information and Health Statistics Management Office
 
-### Ministry of Health of the City of Buenos Aires
-
-::::: {.columns}
-::: {.column width="60%"}
-![](imagenes/1.png){fig-alt="Organizational chart highlighting the Health Information and Statistics Management Office."}
-:::
-
-::: {.column width="40%"}
-![](imagenes/caba.gif){fig-alt="Map of South America, zooming in the City of Buenos Aires."}
-:::
-:::::
 
 ## ¿Why does our office need to detect and estimate pregnancies and delivery dates?
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](imagenes/esquema_sigehos.PNG){fig-align="center" width="569" fig-alt="Diagrama del sistema"}
+![](imagenes/esquema_sigehos.PNG){fig-align="center" width="569" fig-alt="Diagram showing information flow from health centers to information systeem to electronic health records"}
 :::
 
 ::: {.column width="40%"}
@@ -91,40 +80,44 @@ is an internal R package developed by our team to facilitate access to local dat
 
 ![](imagenes/0_records.png){fig-align="center" width="669" fig-alt="Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals."}
 
+<span style="font-size: 1.0em;">Diagram illustrating patient timelines. Each horizontal line represents an individual patient, with black-outlined circles representing health records and red segments indicating pregnancy intervals.</span>
+
 ## Automated Detection of Pregnancies {.smaller}
 ### Extraction of Gestational Age (GA) values
 
 ![](imagenes/1_extraction.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Black-outlined circles represent electronic health records from which a value of Gestational Age could be extraced, while grey circles indicate no GA was obtained"}
 
+<span style="font-size: 1.0em;">Each horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age.</span>
 
 ## Automated Detection of Pregnancies {.smaller}
 ### Clustering of records
 ![](imagenes/2_grouping.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Grey outlined circles represent non-informative records. Coloured circles represent records refering to different pregnancies according to their colour"}
 
-
+<span style="font-size: 1.0em;">Each horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age. Our algorithm identifies which records have pregnancy data, and which pregnancy they correspond to.</span>
 
 ## Automated Detection of Pregnancies {.smaller}
 ### Delimiting of detected pregnancy
 
-![](imagenes/3_delimiting.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancie while regular text indicates operations performed"}
+![](imagenes/3_delimiting.png){fig-align="center" width="669" fig-alt="Diagram showing a patient's timeline. Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed"}
+
+<span style="font-size: 1.0em;">Coloured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed.</span>
 
 ## Automated Detection of Pregnancies {.smaller}
 ### Updating
 
 ![](imagenes/diag_general.png){fig-align="center" width="669" fig-alt="Flowchart illustrating how a new medical record is classified in relation to pregnancy detection. It begins with a new record and asks whether it matches someone with a detected pregnancy. If not, it's marked as a new pregnancy. If yes, it checks if the pregnancy is already known. If not, it's also a new pregnancy. If yes, and based on comparing changes in gestational age versus record date, the record is classified as new information about an ongoing pregnancy, indicating either end of pregnancy or higher gestational age."}
 
-## Impact
-### Ready available pregnancy patient information and more efficient processing for required health information.
-#### Primary healthcare
+## Project's impact
+### Available pregnancy patient information and efficient processing for secondary uses of health data.
+#### Primary healthcare{.tight-list}
 - **Alert rules** for specific conditions
 - **Result indicators** for appropriate checkups
 - **Managing** conditions alongside a pregnancy
 
-#### Healthcare cost recovery
+#### Healthcare cost recovery{.tight-list}
 - Generation of **tracer indicators**
 
-#### Mandatory reportable diseases
-
+#### Mandatory reportable diseases{.tight-list}
 - **Differentiate** pregnant patients for Epidemiological Bulletin
 
 # Thanks for your time!
