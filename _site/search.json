@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html#information-and-health-statistics-management-office",
+    "href": "index.html#information-and-health-statistics-management-office",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Information and Health Statistics Management Office",
+    "text": "Information and Health Statistics Management Office\nMinistry of Health of the City of Buenos Aires"
+  },
+  {
+    "objectID": "index.html#information-and-health-statistics-management-office-1",
+    "href": "index.html#information-and-health-statistics-management-office-1",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Information and Health Statistics Management Office",
+    "text": "Information and Health Statistics Management Office\nMinistry of Health of the City of Buenos Aires"
+  },
+  {
+    "objectID": "index.html#why-does-our-office-need-to-detect-and-estimate-pregnancies-and-delivery-dates",
+    "href": "index.html#why-does-our-office-need-to-detect-and-estimate-pregnancies-and-delivery-dates",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "¿Why does our office need to detect and estimate pregnancies and delivery dates?",
+    "text": "¿Why does our office need to detect and estimate pregnancies and delivery dates?\n\n\n\n\n\n\n\n\n\nFree-text input by healthcare professionals\nRich, high-value data\nLongitudinal pregnancy monitoring\nCritical obstetric metrics"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Background",
+    "text": "Background\nUse of structured data to estimate pregnancy outcomes:\n\nAim: Develop an algorithm that infers patient delivery dates (PDDs) and delivery-specific details from Electronic Health Records (EHRs) with high accuracy, enabling pregnancy-level outcome studies in women’s health."
+  },
+  {
+    "objectID": "index.html#tools",
+    "href": "index.html#tools",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Tools",
+    "text": "Tools\nR-based, open-source ecosystem for scalable health data processing\n\n\n\n\n\n\n\nagiseR\n\n\nis an internal R package developed by our team to facilitate access to local databases and automate reporting workflows."
+  },
+  {
+    "objectID": "index.html#automated-detection-of-pregnancies",
+    "href": "index.html#automated-detection-of-pregnancies",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Automated Detection of Pregnancies",
+    "text": "Automated Detection of Pregnancies\nRecords and pregnancies"
+  },
+  {
+    "objectID": "index.html#automated-detection-of-pregnancies-1",
+    "href": "index.html#automated-detection-of-pregnancies-1",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Automated Detection of Pregnancies",
+    "text": "Automated Detection of Pregnancies\nExtraction of Gestational Age (GA) values"
+  },
+  {
+    "objectID": "index.html#automated-detection-of-pregnancies-2",
+    "href": "index.html#automated-detection-of-pregnancies-2",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Automated Detection of Pregnancies",
+    "text": "Automated Detection of Pregnancies\nClustering of records"
+  },
+  {
+    "objectID": "index.html#automated-detection-of-pregnancies-3",
+    "href": "index.html#automated-detection-of-pregnancies-3",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Automated Detection of Pregnancies",
+    "text": "Automated Detection of Pregnancies\nDelimiting of detected pregnancy"
+  },
+  {
+    "objectID": "index.html#automated-detection-of-pregnancies-4",
+    "href": "index.html#automated-detection-of-pregnancies-4",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Automated Detection of Pregnancies",
+    "text": "Automated Detection of Pregnancies\nUpdating"
+  },
+  {
+    "objectID": "index.html#impact",
+    "href": "index.html#impact",
+    "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
+    "section": "Impact",
+    "text": "Impact\nReady available pregnancy patient information and more efficient processing for required health information.\nPrimary healthcare\n\nAlert rules for specific conditions\nResult indicators for appropriate checkups\nManaging conditions alongside a pregnancy\n\nHealthcare cost recovery\n\nGeneration of tracer indicators\n\nMandatory reportable diseases\n\nDifferentiate pregnant patients for Epidemiological Bulletin"
+  }
+]
