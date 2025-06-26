@@ -39,21 +39,21 @@
     "href": "index.html#automated-detection-of-pregnancies-1",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nExtraction of Gestational Age (GA) values\n\nEach horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age."
+    "text": "Automated Detection of Pregnancies\nExtraction of Gestational Age (GA) values\n\nThis patient timeline shows health records that may or not contain information on gestational age, GA (black circles or grey circles)."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-2",
     "href": "index.html#automated-detection-of-pregnancies-2",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nClustering of records\n\nEach horizontal line represents an individual patient, with black-outlined circles representing health records that may or not contain onformation on gestational age. Our algorithm identifies which records have pregnancy data, and which pregnancy they correspond to."
+    "text": "Automated Detection of Pregnancies\nClustering of records\n\nThese patient’s health records belong to different pregnancies (differently coloured circles). Our algorithm identifies them by comparing differences in GA values and the time gap between records."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-3",
     "href": "index.html#automated-detection-of-pregnancies-3",
     "title": "Algorithm development to estimate pregnancy data from Electronic Health Records",
     "section": "Automated Detection of Pregnancies",
-    "text": "Automated Detection of Pregnancies\nDelimiting of detected pregnancy\n\nColoured segments represent the reconstructed pregnancies based on the patients records, the result of the algorithm. Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed."
+    "text": "Automated Detection of Pregnancies\nDelimiting of detected pregnancy\n\nAs a result of the algorithm, two pregnancies have been reconstructed based on the patients records (differently coloured segments). Below, bold text indicates variables that characterise the pregnancy while regular text indicates operations performed."
   },
   {
     "objectID": "index.html#automated-detection-of-pregnancies-4",
